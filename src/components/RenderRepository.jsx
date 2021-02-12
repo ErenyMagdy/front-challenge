@@ -25,7 +25,7 @@ const RenderReposritory = (props) => {
                             </h5>
                             <div className="row mt-4">
                                 <div className="col-sm-3 "> 
-                                    < strong> Number of stars : {rep.stargazers_count}</ strong>
+                                    <strong> Number of stars : {rep.stargazers_count}</ strong>
                                 </div>
                                 <div className="col-md-3 ">    
                                     <strong >Number of issues : {rep.open_issues_count}</strong>
@@ -36,9 +36,9 @@ const RenderReposritory = (props) => {
                             </div>
                             <div className="row mt-3 ">
                                 <div className="col-sm-3 ml-4">
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i className="fa fa-star-o" aria-hidden="true"></i>
+                                    <i className="fa fa-star-o" aria-hidden="true"></i>
+                                    <i className="fa fa-star-o" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </Media>
